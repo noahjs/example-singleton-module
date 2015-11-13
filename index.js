@@ -15,7 +15,7 @@ console.log( "A-stateless - get: ", lib.get() ); // "BBB"
  */
 console.log("Controller B-stateless");
 var lib = require('./stateless.js')();
-console.log( "B-stateless - get: ", lib.get() ); // "BBB"
+console.log( "B-stateless - get: ", lib.get() ); // "AAA"
 
 
 console.log();
@@ -37,4 +37,4 @@ console.log( "A-stateful - get: ", lib.get() ); // "BBB"
  */
 console.log("Controller B-stateful");
 var lib = require('./stateful.js');
-console.log( "B-stateless - get: ", lib.get() ); //"AAA"
+console.log( "B-stateless - get: ", lib.get() ); //"BBB"
