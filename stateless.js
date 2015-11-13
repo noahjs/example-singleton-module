@@ -12,6 +12,10 @@ Stateless.prototype.get = function(){
     return this.string;
 }
 
+/*
+    Note this is exporting a Function that needs to get called
+    AFTER it is required into another script
+ */
 module.exports = function(){
     return new Stateless();
 }
