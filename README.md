@@ -1,5 +1,7 @@
 # Stateful vs Stateless npm modules
 
+## See: http://bites.goodeggs.com/posts/export-this/
+
 ```js
 node index.js
 ```
